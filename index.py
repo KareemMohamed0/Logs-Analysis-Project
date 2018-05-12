@@ -53,7 +53,6 @@ def appendToResult(content, isError=False):
     else:
         for c in content:
             result += c[0] + ' - ' + str(c[1]) + '  views \n'
-    fileWrite(result)
 
 
 if __name__ == '__main__':
