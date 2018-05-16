@@ -1,4 +1,5 @@
-# type python index.py by yor cli
+#!/usr/bin/env python
+
 import psycopg2
 
 DBNAME = "news"
